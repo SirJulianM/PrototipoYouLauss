@@ -1,84 +1,61 @@
-    <article class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3">&nbsp;</div>
-            <div class="col-lg-6">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-start">
-                            <h3>Crear cuenta</h3>
-                        </div>
-                        <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-end">
-                            <h1>Lauss</h1>
-                        </div>
-                        <div class="col-lg-12 d-block d-lg-none">
-                            <h3 class="text-center">Crear cuenta</h3>
-                        </div>
-                        <div class="col-lg-12 d-block d-lg-none">
-                            <h1 class="text-center">Lauss</h1>
-                        </div>
-                    </div>
-                    <div class="row my-2" id="Usuario">
-                        <div class="col-md-12">
-                            <input type="text" name="Usuario" id="usuario" placeholder="@Nombre del usuario" class="form-control  b">
-                            <span>Puedes usar letras, números y signos de puntuación</span>
-                        </div>
-                    </div>
-                    <div class="row my-2" id="Datos">
-                        <div class="col-md-6">
-                            <input type="text" name="Nombre" id="nombre" placeholder="Nombre" style="width:100%">
-                        </div>
-                        <div class="col-md-6">
-                            <apellido v-model="apellido"></apellido>
-                            <input type="text" name="Apellidos" id="apellidos" placeholder="Apellidos" style="width:100%">
-                        </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-md-6">
-                            <input type="email" name="Email" id="email" placeholder="Correo Electrónico" style="width:100%">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" name="Celular" id="celular" placeholder="Celular" style="width:100%">
-                        </div>
-                    </div>
-                    <div class="row my-2" id="Claves">
-                        <div class="col-md-6">
-                            <input type="password" name="Contraseña" id="clave" placeholder="Contraseña" style="width:100%">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="password" name="VContraseña" id="vclave" placeholder="Confirmar contraseña" style="width:100%">
-                        </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-md-8">
-                            &nbsp;
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-block btn-success">Registrate</button>
-                        </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-md-12">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-md-4 d-flex align-items-center justify-content-center">
-                            <a href="#">Ayuda</a>
-                        </div>
-                        <div class="col-md-4 d-flex align-items-center justify-content-center">
-                            <a href="#">Privacidad</a>
-                        </div>
-                        <div class="col-md-4 d-flex align-items-center justify-content-center">
-                            <a href="#">Condiciones</a>
+    <article>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    &nbsp;
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-item-center">
+                    <h1>Lauss</h1>
+                </div>
+                <div class="col-md-4">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-2">
+                    &nbsp;
+                </div>
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <input type="text" placeholder="Nombre" id="Usuario" class="form-control">
+                        <input type="password" placeholder="Contraseña" id="clave" class="form-control">
+                        <div class="input-group-append">
+                            <a href="#" class="btn btn-success">Iniciar Sesión</a>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-2">
+                   &nbsp;
+                </div>
             </div>
-            <div class="col-lg-3">&nbsp;</div>
+            <div class="row d-none d-md-flex">
+                <div class="col-md-2">
+                    &nbsp;
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="d-flex justify-content-end mr-5 align-item-center">Registrate</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="d-flex justify-content-end align-item-center">Olvidaste tu contraseña</a>
+                </div>
+                <div class="col-md-2">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row d-flex d-md-none">
+                <div class="col-md-12">
+                    <a href="#" class="d-flex justify-content-center align-item-center">Olvidaste tu contraseña</a>
+                </div>
+            </div>
+            <div class="row d-flex d-md-none">
+                <div class="col-md-12">
+                    <a href="#" class="d-flex justify-content-center align-item-center">Registrate</a>
+                </div>
+            </div>
         </div>
     </article>
