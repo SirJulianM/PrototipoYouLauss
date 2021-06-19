@@ -38,7 +38,7 @@
                     &nbsp;
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="d-flex justify-content-end mr-5 align-item-center">Registrate</a>
+                    <a href="index.php?opc=vregister" class="d-flex justify-content-end mr-5 align-item-center">Registrate</a>
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="d-flex justify-content-end align-item-center">Olvidaste tu contraseña</a>
@@ -49,7 +49,7 @@
             </div>
             <div class="row d-flex d-md-none">
                 <div class="col-md-12">
-                    <a href="#" class="d-flex justify-content-center align-item-center">Olvidaste tu contraseña</a>
+                    <a href="index.php?opc=vregister" class="d-flex justify-content-center align-item-center">Olvidaste tu contraseña</a>
                 </div>
             </div>
             <div class="row d-flex d-md-none">

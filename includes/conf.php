@@ -15,6 +15,8 @@ define('DS', DIRECTORY_SEPARATOR);
 /* --------------------------------------------- Public area ------------------------------------------------------- */
 $conf["vlogin"] = array("modulo" => "mod_seguridad", 'archivo' => "login", "layout"  => DEFAULT_LAYOUT);
 $conf["clogin"] = array("modulo" => "mod_seguridad", 'archivo' => "login", "layout"  => CONTROLLER_LAYOUT);
+$conf["vregister"] = array("modulo" => "mod_seguridad", 'archivo' => "register", "layout" => DEFAULT_LAYOUT);
+$conf["cregister"] = array("modulo" => "mod_seguridad", 'archivo' => "register", "layout" => CONTROLLER_LAYOUT);
 
 /* ----------------------------------------------------------------------------------------------------------------- */
 
